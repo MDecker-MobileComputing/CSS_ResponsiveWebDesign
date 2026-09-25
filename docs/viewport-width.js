@@ -3,8 +3,9 @@
 /**
  * Just include this script in your HTML file to display the current viewport width in a paragraph element.
  *
- * Include it using the following code in your HTML file's <head> section:
- * <script src="viewport-width.js" defer></script>
+ * Include it using the following code in your HTML file's <head> section, e.g.:
+ *
+ *      <script src="../viewport-width.js" defer></script>
  *
  * Attribute "defer" is important to ensure that the script runs after the
  * HTML document has been fully parsed.
