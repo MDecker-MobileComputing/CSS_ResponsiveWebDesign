@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Media Types</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="media-types.css">
+</head>
+<body>
+
+  <h1>CSS Media Types Demo</h1>
+
+  <p>
+    This HTML page uses CSS media types.
+    Different CSS rules are defined for the <code>SCREEN</code> and <code>PRINT</code> output
+    devices.
+  </p>
+
+  <div class="only_screen">
+    <p>The following image is hidden in print mode:</p>
+    <img src="ColorGradient.png" alt="Color Gradient" height="300" width="300" >
+  </div>
+
+  <p>Further information:</p>
+  <ul>
+    <li><a href="http://www.w3.org/TR/CSS21/media.html"                   target="_blank" >Chapter on CSS media types</a> in the W3C CSS 2.1 standard.</li>
+    <li><a href="https://www.tutorialspoint.com/css/css_media_types.htm"  target="_blank" >Explanation of CSS media types</a> on <i>tutorialspoint.com</i>.</li>
+    <li><a href="http://www.heise.de/ix/artikel/Allen-recht-1058764.html" target="_blank" >Article (German) from iX 9/2010</a> about media types and media queries.</li>
+  </ul>
+
+  <p class="only_print">
+    This box is displayed only in print mode and could contain, for example, a copyright notice
+    or the website address.
+  </p>
+
+
+
+</body>

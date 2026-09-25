@@ -1,0 +1,36 @@
+
+body {
+    font-family: sans-serif;
+}
+
+a, abbr {
+    font-style: italic;
+}
+
+
+li, p, img {
+    margin-bottom: 1em;
+}
+
+
+/* *** Now come the media type-specific CSS rules *** */
+
+@media screen {
+
+    .only_print {
+        display: none;
+    }
+}
+
+@media print {
+
+    .only_screen {
+        display: none;
+    }
+
+    .only_print {
+        padding:    10px;
+        border:     1px dashed black;
+        margin-top: 50px;
+    }
+}
