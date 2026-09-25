@@ -1,0 +1,25 @@
+
+body {
+    font-family: sans-serif;
+}
+
+/**
+ * The following CSS rule makes images responsive. It ensures that the image is never wider than
+ * its container and that the height is adjusted automatically to maintain the aspect ratio.
+ *
+ * You can also use "img" as selector instead of ".responsive-image" if you want all images on the
+ * page to be responsive.
+ *
+ * Even when using CSS rules to define the image size, you should still set the width and height
+ * attributes in the <img> tag. This is important for accessibility and for the browser to calculate
+ * the aspect ratio of the image before it is loaded. This prevents layout shifts when the image is
+ * loaded.
+ */
+.responsive-image {
+    max-width: 100%;
+    height   : auto;
+}
+
+h2 {
+    margin-top: 2em;
+}

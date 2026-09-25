@@ -26,9 +26,9 @@ h1 {
 
 
 /*
-* Viewport width >= 801px: Four tiles per row.
-* 5 gaps of 1% => 95% remain for the tiles.
-*/
+ * Viewport width >= 801px: Four tiles per row.
+ * 5 gaps of 1% => 95% remain for the tiles.
+ */
 @media screen and ( min-width: 801px ) {
 
     .tile {
@@ -38,9 +38,9 @@ h1 {
 
 
 /*
-* 601px <= viewport width <= 800px: Three tiles per row.
-* 4 gaps of 1% => 96% remain for the tiles.
-*/
+ * 601px <= viewport width <= 800px: Three tiles per row.
+ * 4 gaps of 1% => 96% remain for the tiles.
+ */
 @media screen and ( min-width: 601px ) and ( max-width: 800px ) {
 
     .tile {
@@ -50,9 +50,9 @@ h1 {
 
 
 /*
-* 401px <= viewport width <= 600px: Two tiles per row.
-* 3 gaps of 1% => 97% remain for the tiles.
-*/
+ * 401px <= viewport width <= 600px: Two tiles per row.
+ * 3 gaps of 1% => 97% remain for the tiles.
+ */
 @media screen and ( min-width: 401px ) and (max-width: 600px) {
 
     .tile {
@@ -62,9 +62,9 @@ h1 {
 
 
 /*
-* Viewport width <= 400px: One tile per row.
-* 2 gaps of 1% => 98% remain for the tile.
-*/
+ * Viewport width <= 400px: One tile per row.
+ * 2 gaps of 1% => 98% remain for the tile.
+ */
 @media screen and ( max-width: 400px ) {
 
     .tile {
