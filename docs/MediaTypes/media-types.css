@@ -12,6 +12,10 @@ li, p, img {
     margin-bottom: 1em;
 }
 
+img {
+    border: 1px solid black;
+}
+
 
 /* *** Now come the media type-specific CSS rules *** */
 
