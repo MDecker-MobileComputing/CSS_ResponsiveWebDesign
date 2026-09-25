@@ -9,6 +9,7 @@ sizes and devices.
 <br>
 
 The web pages contained in this repository are served by *GH Pages* at the following URL:
+
 https://mdecker-mobilecomputing.github.io/CSS_ResponsiveWebDesign/
 
 <br>
