@@ -2,9 +2,14 @@
 
 <br>
 
-This repository contains sample files for *Responsive Web Design* using CSS.
-Responsive web design is about designing a website so that it automatically adapts
-to different screen sizes and devices.
+This repository contains sample files for *Responsive Web Design (RWD)* using CSS.
+RWD is about designing a website so that it automatically adapts to different screen
+sizes and devices.
+
+<br>
+
+The web pages contained in this repository are served by *GH Pages* at the following URL:
+https://mdecker-mobilecomputing.github.io/CSS_ResponsiveWebDesign/
 
 <br>
 
