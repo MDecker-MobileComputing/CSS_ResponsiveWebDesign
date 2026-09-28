@@ -9,6 +9,7 @@ h1 {
 
 h2 {
     margin: 0.5rem 0.5rem 0.5rem 0;
+    color:  darkred;
 }
 
 .the-container {
@@ -30,6 +31,14 @@ h2 {
   flex-direction: column;
 }
 
+.mode_column {
+  display: block; /* default value */
+}
+
+.mode_row {
+  display: none;
+}
+
 /* Container Query */
 @container the-container ( width > 60ch ) {
 
@@ -40,5 +49,17 @@ h2 {
 
   .child {
     flex-direction: row;
+  }
+
+  .mode_column {
+    display: none;
+  }
+
+  .mode_row {
+    display: block;
+  }
+
+  h2 {
+    color: darkgreen;
   }
 }
