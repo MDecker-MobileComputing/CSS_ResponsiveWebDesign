@@ -12,6 +12,10 @@ h2 {
     color:  darkred;
 }
 
+.explanation {
+    margin: 2rem 0;
+}
+
 /*
  * The W3C Validator for CSS does not yet support the new container queries.
  * Further, html5validator (which is used in .github/workflows/validate-html.yml)
