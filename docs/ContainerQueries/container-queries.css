@@ -1,0 +1,44 @@
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.the-container {
+
+  background-color: yellow;
+
+  container-name:   the-container;
+  container-type:   inline-size;
+
+  resize:           horizontal;
+  overflow:         auto;
+  border:           1px solid #ccc;
+  padding:          1rem;
+}
+
+.child {
+
+  display:        flex;
+  flex-direction: column;
+}
+
+/* Container Query */
+@container the-container ( width > 60ch ) {
+
+  /*
+   * The following rules will become effective when
+   * the container's width is greater than 60ch.
+   */
+
+  .child {
+    flex-direction: row;
+  }
+}
