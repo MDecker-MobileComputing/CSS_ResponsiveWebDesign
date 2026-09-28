@@ -12,6 +12,19 @@ h2 {
     color:  darkred;
 }
 
+/*
+ * The W3C Validator for CSS does not yet support the new container queries.
+ * Further, html5validator (which is used in .github/workflows/validate-html.yml)
+ * does also not support the new container queries (so an exemption rule was added
+ * to .github/workflows/validate-html.yml).
+ *
+ * According to caniuse.com, the container queries are supported by all major browsers
+ * (Chrome, Edge, Firefox, Opera, Safari) since 2023:
+ * * https://caniuse.com/?search=container-name
+ * * https://caniuse.com/?search=container-type
+ * * https://caniuse.com/?search=%40container
+ */
+
 .the-container {
 
   background-color: yellow;
@@ -19,16 +32,16 @@ h2 {
   container-name:   the-container;
   container-type:   inline-size;
 
-  resize:           horizontal;
+  resize:           horizontal; /* allows resizing the container by end user */
   overflow:         auto;
   border:           1px solid #ccc;
   padding:          1rem;
 }
 
-.child {
+.flex-container {
 
   display:        flex;
-  flex-direction: column;
+  flex-direction: column; /* default value for narrow containers */
 }
 
 .mode_column {
@@ -42,13 +55,8 @@ h2 {
 /* Container Query */
 @container the-container ( width > 60ch ) {
 
-  /*
-   * The following rules will become effective when
-   * the container's width is greater than 60ch.
-   */
-
-  .child {
-    flex-direction: row;
+  .flex-container {
+    flex-direction: row; /* row-wise alignment of child items for wide containers */
   }
 
   .mode_column {
