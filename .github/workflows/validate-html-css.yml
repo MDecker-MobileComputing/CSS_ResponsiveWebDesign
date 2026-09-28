@@ -31,3 +31,4 @@ jobs:
           --show-warnings
           --also-check-css
           --blacklist "fontello-35a4d8ce"
+          --ignore-re "container-name|container-type|@container"
