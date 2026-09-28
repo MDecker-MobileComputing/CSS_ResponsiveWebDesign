@@ -52,6 +52,7 @@ aside#sidebar-two {
     grid-area: aside-two;
 }
 
+
 @media ( min-width: 48rem ) {
     body {
         grid-template-columns: minmax( 0, 2fr ) minmax( 14rem, 1fr );
