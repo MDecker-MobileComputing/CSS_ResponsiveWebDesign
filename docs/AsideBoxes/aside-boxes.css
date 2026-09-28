@@ -53,21 +53,21 @@ aside#sidebar-two {
 }
 
 
+/* Grid Layout with two columns */
 @media ( min-width: 48rem ) {
     body {
         grid-template-columns: minmax( 0, 2fr ) minmax( 14rem, 1fr );
-        grid-template-areas:
-            "title title"
-            "content aside-one"
-            "aside-two aside-two";
+        grid-template-areas: "title title"
+                             "content aside-one"
+                             "aside-two aside-two";
     }
 }
 
+/* Grid Layout with three columns */
 @media (min-width: 76rem) {
     body {
         grid-template-columns: minmax( 12rem, 1fr ) minmax( 0, 2fr ) minmax( 12rem, 1fr );
-        grid-template-areas:
-            "title title title"
-            "aside-one content aside-two";
+        grid-template-areas: "title title title"
+                             "aside-one content aside-two";
     }
 }
