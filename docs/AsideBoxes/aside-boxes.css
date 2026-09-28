@@ -3,6 +3,21 @@ body {
     font-family: sans-serif;
 }
 
+article {
+    background-color: #f2f8f7;
+    border-top: 4px solid #287a72;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+    line-height: 1.6;
+    margin: 1.5em 0;
+    padding: 1.5em;
+}
+
+article h2 {
+    color: #205f59;
+    margin-top: 0;
+}
+
 aside {
     background-color: #f0f0f0;
     padding: 1em;
