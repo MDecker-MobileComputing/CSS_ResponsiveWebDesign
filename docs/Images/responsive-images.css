@@ -3,6 +3,12 @@ body {
     font-family: sans-serif;
 }
 
+
+h2 {
+    margin-top: 2em;
+}
+
+
 /**
  * The following CSS rule makes images responsive. It ensures that the image is never wider than
  * its container and that the height is adjusted automatically to maintain the aspect ratio.
@@ -16,10 +22,10 @@ body {
  * loaded.
  */
 .responsive-image {
+
     max-width: 100%;
     height   : auto;
 }
 
-h2 {
-    margin-top: 2em;
-}
+
+
